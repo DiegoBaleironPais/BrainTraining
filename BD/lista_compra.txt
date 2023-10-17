@@ -1,0 +1,10 @@
+Leche;
+Pan;
+Arroz;
+Huevos;
+Aceite;
+Azúcar;
+Café;
+Pollo;
+Pasta;
+Tomate;
