@@ -7,7 +7,8 @@ class VentanaPrincipal:
     def __init__(self, master):
         self.master = master
         self.master.title("Fortalecer Memoria")
-        self.master.geometry("600x400")  # Tamaño de la ventana ajustado
+        self.master.resizable(False, False)  # Hace que la ventana no sea redimensionable
+        self.master.geometry("550x400")  # Tamaño de la ventana ajustado
 
         self.bd = LecturaBD()
         self.tts = TTS()
